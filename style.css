@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+.emoji-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.emoji-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+.emoji-card:hover {
+    transform: translateY(-5px);
+}
+
+.emoji-card img {
+    width: 100px;
+    height: 100px;
+}
+
+.emoji-card h5 {
+    margin: 10px 0;
+    font-size: 16px;
+}
